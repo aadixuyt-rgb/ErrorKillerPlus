@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "pl.bkubiak.errorkillerplus.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ErrorKillerControllerMixin"],
+  "injectors": {"defaultRequire": 1}
+}

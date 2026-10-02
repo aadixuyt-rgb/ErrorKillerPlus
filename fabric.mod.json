@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "error-killer-plus",
+  "version": "${version}",
+  "name": "Error Killer Plus",
+  "description": "Clean client-side patch for Error Killer: keybind toggle, off-hand cobweb support and safer lever targeting.",
+  "authors": ["Clean patch"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.bkubiak.errorkillerplus.ErrorKillerPlusClient"]
+  },
+  "mixins": ["error-killer-plus.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*",
+    "error-killer": ">=1.0"
+  }
+}

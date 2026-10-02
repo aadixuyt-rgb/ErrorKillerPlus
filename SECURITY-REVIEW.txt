@@ -1,0 +1,8 @@
+Static review of supplied ErrorKiller-1_21_4.jar
+SHA-256: b002856c3b995f3667e5f3df18ba25d55785c1ac5f83c86f1f5179b9db8ddbef
+
+Checked bytecode/metadata for common RAT indicators: socket/network client APIs, Runtime.exec, ProcessBuilder, dynamic class loading, suspicious reflection payload loading, Base64/Cipher payload handling and embedded download URLs.
+No such executable RAT pattern was found in the inspected classes.
+The JAR does perform normal local config file read/write and contains a URL-pattern helper for clickable text.
+
+This is a static inspection, not a mathematical guarantee that a JAR can never contain malware.
